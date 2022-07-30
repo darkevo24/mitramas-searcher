@@ -12,7 +12,7 @@ import Search from './search';
 export default function App() {
   return (
     <div>
-        <Navbar></Navbar>
+      <Navbar></Navbar>
          <Router>
         <Routes>
         <Route path="/search" element={<Search/>}>
